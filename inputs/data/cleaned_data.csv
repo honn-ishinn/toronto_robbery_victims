@@ -1,0 +1,561 @@
+Index_,ReportedYear,Subtype,Sex,AgeGroup,AgeCohort,Count_
+1,2014,Assault,M,Adult,25-34,2
+2,2014,Assault,M,Adult,55-64,1
+3,2014,Assault,F,Adult,18-24,1
+4,2014,Assault,F,Adult,25-34,5
+5,2014,Assault,F,Adult,35-44,3
+6,2014,Assault,F,Adult,45-54,2
+7,2014,Assault,F,Adult,55-64,1
+9,2014,Assault,M,Adult,18-24,2
+10,2014,Assault,M,Adult,25-34,21
+11,2014,Assault,M,Adult,35-44,21
+12,2014,Assault,M,Adult,45-54,14
+13,2014,Assault,M,Adult,55-64,1
+15,2014,Assault,F,Adult,25-34,1
+16,2014,Assault,F,Adult,35-44,1
+18,2014,Assault,M,Adult,25-34,4
+19,2014,Assault,M,Adult,35-44,2
+20,2014,Assault,M,Adult,45-54,1
+22,2014,Assault,F,Adult,18-24,1
+23,2014,Assault,F,Adult,25-34,22
+24,2014,Assault,F,Adult,35-44,4
+25,2014,Assault,F,Adult,45-54,1
+27,2014,Assault,M,Adult,18-24,33
+28,2014,Assault,M,Adult,25-34,84
+29,2014,Assault,M,Adult,35-44,35
+30,2014,Assault,M,Adult,45-54,14
+31,2014,Assault,M,Adult,55-64,5
+32,2014,Assault,M,Adult,65+,1
+34,2014,Assault,F,Adult,18-24,1459
+35,2014,Assault,F,Adult,25-34,1904
+36,2014,Assault,F,Adult,35-44,1276
+37,2014,Assault,F,Adult,45-54,919
+38,2014,Assault,F,Adult,55-64,388
+39,2014,Assault,F,Adult,65+,287
+40,2014,Assault,F,Child,<12,325
+42,2014,Assault,F,Youth,12-17,525
+43,2014,Assault,M,Adult,18-24,1055
+44,2014,Assault,M,Adult,25-34,1668
+45,2014,Assault,M,Adult,35-44,1140
+46,2014,Assault,M,Adult,45-54,1183
+47,2014,Assault,M,Adult,55-64,610
+48,2014,Assault,M,Adult,65+,285
+49,2014,Assault,M,Child,<12,506
+101,2014,Sexual Violation,M,Adult,18-24,23
+102,2014,Sexual Violation,M,Adult,25-34,29
+103,2014,Sexual Violation,M,Adult,35-44,9
+289,2016,Other,F,Child,<12,60
+104,2014,Sexual Violation,M,Adult,45-54,13
+105,2014,Sexual Violation,M,Adult,55-64,7
+106,2014,Sexual Violation,M,Adult,65+,2
+107,2014,Sexual Violation,M,Child,<12,106
+109,2014,Sexual Violation,M,Youth,12-17,70
+111,2015,Assault,F,Adult,25-34,4
+112,2015,Assault,F,Adult,35-44,7
+113,2015,Assault,F,Adult,45-54,2
+114,2015,Assault,F,Adult,65+,2
+116,2015,Assault,M,Adult,18-24,1
+117,2015,Assault,M,Adult,25-34,26
+118,2015,Assault,M,Adult,35-44,25
+119,2015,Assault,M,Adult,45-54,10
+120,2015,Assault,M,Adult,55-64,3
+121,2015,Assault,M,Adult,65+,5
+124,2015,Assault,F,Adult,25-34,1
+126,2015,Assault,M,Adult,18-24,1
+127,2015,Assault,M,Adult,35-44,1
+128,2015,Assault,M,Adult,45-54,2
+206,2015,Sexual Violation,F,Adult,25-34,363
+129,2015,Assault,M,Adult,55-64,1
+131,2015,Assault,F,Adult,18-24,10
+132,2015,Assault,F,Adult,25-34,16
+133,2015,Assault,F,Adult,35-44,4
+134,2015,Assault,F,Adult,45-54,3
+135,2015,Assault,F,Adult,55-64,2
+136,2015,Assault,F,Adult,65+,1
+138,2015,Assault,M,Adult,18-24,34
+139,2015,Assault,M,Adult,25-34,84
+140,2015,Assault,M,Adult,35-44,31
+141,2015,Assault,M,Adult,45-54,19
+142,2015,Assault,M,Adult,55-64,3
+143,2015,Assault,M,Adult,65+,3
+145,2015,Assault,F,Adult,18-24,1459
+146,2015,Assault,F,Adult,25-34,2042
+147,2015,Assault,F,Adult,35-44,1268
+148,2015,Assault,F,Adult,45-54,973
+149,2015,Assault,F,Adult,55-64,438
+150,2015,Assault,F,Adult,65+,305
+201,2015,Robbery,M,Child,<12,16
+203,2015,Robbery,M,Youth,12-17,615
+205,2015,Sexual Violation,F,Adult,18-24,476
+207,2015,Sexual Violation,F,Adult,35-44,180
+208,2015,Sexual Violation,F,Adult,45-54,113
+209,2015,Sexual Violation,F,Adult,55-64,35
+210,2015,Sexual Violation,F,Adult,65+,33
+211,2015,Sexual Violation,F,Child,<12,233
+213,2015,Sexual Violation,F,Youth,12-17,409
+214,2015,Sexual Violation,M,Adult,18-24,41
+215,2015,Sexual Violation,M,Adult,25-34,31
+216,2015,Sexual Violation,M,Adult,35-44,15
+217,2015,Sexual Violation,M,Adult,45-54,14
+218,2015,Sexual Violation,M,Adult,55-64,4
+219,2015,Sexual Violation,M,Adult,65+,9
+220,2015,Sexual Violation,M,Child,<12,100
+222,2015,Sexual Violation,M,Youth,12-17,70
+224,2016,Assault,F,Adult,18-24,3
+225,2016,Assault,F,Adult,25-34,14
+226,2016,Assault,F,Adult,35-44,5
+227,2016,Assault,F,Adult,45-54,6
+229,2016,Assault,M,Adult,18-24,3
+230,2016,Assault,M,Adult,25-34,34
+231,2016,Assault,M,Adult,35-44,26
+232,2016,Assault,M,Adult,45-54,13
+233,2016,Assault,M,Adult,55-64,5
+234,2016,Assault,M,Adult,65+,1
+236,2016,Assault,F,Adult,35-44,2
+237,2016,Assault,F,Adult,45-54,1
+239,2016,Assault,M,Adult,25-34,1
+240,2016,Assault,M,Adult,45-54,5
+242,2016,Assault,F,Adult,18-24,11
+243,2016,Assault,F,Adult,25-34,13
+244,2016,Assault,F,Adult,35-44,11
+245,2016,Assault,F,Adult,45-54,2
+246,2016,Assault,F,Adult,55-64,1
+247,2016,Assault,F,Adult,65+,1
+249,2016,Assault,M,Adult,18-24,49
+250,2016,Assault,M,Adult,25-34,79
+251,2016,Assault,M,Adult,35-44,42
+252,2016,Assault,M,Adult,45-54,24
+253,2016,Assault,M,Adult,55-64,4
+254,2016,Assault,M,Adult,65+,2
+256,2016,Assault,M,Youth,12-17,1
+260,2016,Assault,F,Adult,18-24,1498
+261,2016,Assault,F,Adult,25-34,2007
+262,2016,Assault,F,Adult,35-44,1310
+263,2016,Assault,F,Adult,45-54,936
+264,2016,Assault,F,Adult,55-64,485
+265,2016,Assault,F,Adult,65+,365
+266,2016,Assault,F,Child,<12,260
+268,2016,Assault,F,Youth,12-17,575
+269,2016,Assault,M,Adult,18-24,1248
+270,2016,Assault,M,Adult,25-34,1857
+271,2016,Assault,M,Adult,35-44,1316
+272,2016,Assault,M,Adult,45-54,1325
+273,2016,Assault,M,Adult,55-64,757
+274,2016,Assault,M,Adult,65+,353
+275,2016,Assault,M,Child,<12,519
+277,2016,Assault,M,Youth,12-17,624
+283,2016,Other,F,Adult,18-24,471
+284,2016,Other,F,Adult,25-34,739
+285,2016,Other,F,Adult,35-44,516
+286,2016,Other,F,Adult,45-54,424
+287,2016,Other,F,Adult,55-64,185
+288,2016,Other,F,Adult,65+,102
+291,2016,Other,F,Youth,12-17,235
+292,2016,Other,M,Adult,18-24,278
+293,2016,Other,M,Adult,25-34,466
+294,2016,Other,M,Adult,35-44,403
+295,2016,Other,M,Adult,45-54,373
+296,2016,Other,M,Adult,55-64,215
+297,2016,Other,M,Adult,65+,93
+298,2016,Other,M,Child,<12,74
+300,2016,Other,M,Youth,12-17,147
+51,2014,Assault,M,Youth,12-17,558
+52,2014,Other,F,Adult,18-24,474
+53,2014,Other,F,Adult,25-34,687
+54,2014,Other,F,Adult,35-44,497
+55,2014,Other,F,Adult,45-54,398
+56,2014,Other,F,Adult,55-64,194
+57,2014,Other,F,Adult,65+,83
+58,2014,Other,F,Child,<12,68
+60,2014,Other,F,Youth,12-17,215
+61,2014,Other,M,Adult,18-24,219
+62,2014,Other,M,Adult,25-34,412
+63,2014,Other,M,Adult,35-44,376
+64,2014,Other,M,Adult,45-54,356
+65,2014,Other,M,Adult,55-64,197
+66,2014,Other,M,Adult,65+,95
+67,2014,Other,M,Child,<12,75
+69,2014,Other,M,Youth,12-17,164
+71,2014,Robbery,F,Adult,18-24,244
+72,2014,Robbery,F,Adult,25-34,193
+73,2014,Robbery,F,Adult,35-44,120
+74,2014,Robbery,F,Adult,45-54,137
+75,2014,Robbery,F,Adult,55-64,70
+76,2014,Robbery,F,Adult,65+,61
+77,2014,Robbery,F,Child,<12,6
+79,2014,Robbery,F,Youth,12-17,70
+80,2014,Robbery,M,Adult,18-24,674
+81,2014,Robbery,M,Adult,25-34,422
+82,2014,Robbery,M,Adult,35-44,223
+83,2014,Robbery,M,Adult,45-54,214
+84,2014,Robbery,M,Adult,55-64,113
+85,2014,Robbery,M,Adult,65+,85
+86,2014,Robbery,M,Child,<12,29
+88,2014,Robbery,M,Youth,12-17,658
+92,2014,Sexual Violation,F,Adult,18-24,477
+93,2014,Sexual Violation,F,Adult,25-34,354
+94,2014,Sexual Violation,F,Adult,35-44,155
+95,2014,Sexual Violation,F,Adult,45-54,102
+96,2014,Sexual Violation,F,Adult,55-64,42
+97,2014,Sexual Violation,F,Adult,65+,34
+98,2014,Sexual Violation,F,Child,<12,243
+191,2015,Robbery,F,Adult,65+,61
+100,2014,Sexual Violation,F,Youth,12-17,399
+307,2016,Robbery,F,Adult,18-24,191
+308,2016,Robbery,F,Adult,25-34,185
+309,2016,Robbery,F,Adult,35-44,114
+310,2016,Robbery,F,Adult,45-54,122
+311,2016,Robbery,F,Adult,55-64,97
+312,2016,Robbery,F,Adult,65+,41
+313,2016,Robbery,F,Child,<12,6
+315,2016,Robbery,F,Youth,12-17,77
+316,2016,Robbery,M,Adult,18-24,703
+317,2016,Robbery,M,Adult,25-34,434
+318,2016,Robbery,M,Adult,35-44,222
+319,2016,Robbery,M,Adult,45-54,258
+320,2016,Robbery,M,Adult,55-64,162
+321,2016,Robbery,M,Adult,65+,63
+322,2016,Robbery,M,Child,<12,17
+324,2016,Robbery,M,Youth,12-17,699
+328,2016,Sexual Violation,F,Adult,18-24,514
+329,2016,Sexual Violation,F,Adult,25-34,415
+330,2016,Sexual Violation,F,Adult,35-44,180
+331,2016,Sexual Violation,F,Adult,45-54,100
+332,2016,Sexual Violation,F,Adult,55-64,56
+333,2016,Sexual Violation,F,Adult,65+,35
+334,2016,Sexual Violation,F,Child,<12,208
+336,2016,Sexual Violation,F,Youth,12-17,433
+337,2016,Sexual Violation,M,Adult,18-24,43
+338,2016,Sexual Violation,M,Adult,25-34,24
+339,2016,Sexual Violation,M,Adult,35-44,15
+340,2016,Sexual Violation,M,Adult,45-54,11
+341,2016,Sexual Violation,M,Adult,55-64,6
+342,2016,Sexual Violation,M,Adult,65+,2
+343,2016,Sexual Violation,M,Child,<12,86
+345,2016,Sexual Violation,M,Youth,12-17,49
+348,2017,Assault,F,Adult,65+,1
+349,2017,Assault,M,Adult,35-44,1
+351,2017,Assault,F,Adult,18-24,1
+352,2017,Assault,F,Adult,25-34,17
+353,2017,Assault,F,Adult,35-44,11
+354,2017,Assault,F,Adult,45-54,7
+355,2017,Assault,F,Adult,55-64,3
+357,2017,Assault,M,Adult,18-24,4
+358,2017,Assault,M,Adult,25-34,51
+359,2017,Assault,M,Adult,35-44,52
+360,2017,Assault,M,Adult,45-54,32
+361,2017,Assault,M,Adult,55-64,4
+362,2017,Assault,M,Adult,65+,3
+365,2017,Assault,F,Adult,25-34,4
+367,2017,Assault,M,Adult,18-24,2
+368,2017,Assault,M,Adult,25-34,3
+369,2017,Assault,M,Adult,35-44,8
+370,2017,Assault,M,Adult,45-54,3
+371,2017,Assault,M,Adult,55-64,3
+372,2017,Assault,M,Adult,65+,1
+374,2017,Assault,F,Adult,18-24,10
+375,2017,Assault,F,Adult,25-34,15
+376,2017,Assault,F,Adult,35-44,3
+377,2017,Assault,F,Adult,45-54,5
+378,2017,Assault,F,Adult,55-64,4
+380,2017,Assault,M,Adult,18-24,76
+381,2017,Assault,M,Adult,25-34,76
+382,2017,Assault,M,Adult,35-44,31
+383,2017,Assault,M,Adult,45-54,27
+384,2017,Assault,M,Adult,55-64,7
+385,2017,Assault,M,Adult,65+,4
+387,2017,Assault,M,Youth,12-17,2
+388,2017,Assault,F,Adult,18-24,1419
+389,2017,Assault,F,Adult,25-34,2060
+390,2017,Assault,F,Adult,35-44,1375
+391,2017,Assault,F,Adult,45-54,999
+392,2017,Assault,F,Adult,55-64,489
+393,2017,Assault,F,Adult,65+,366
+394,2017,Assault,F,Child,<12,290
+396,2017,Assault,F,Youth,12-17,602
+397,2017,Assault,M,Adult,18-24,1314
+398,2017,Assault,M,Adult,25-34,1936
+399,2017,Assault,M,Adult,35-44,1305
+400,2017,Assault,M,Adult,45-54,1316
+151,2015,Assault,F,Child,<12,296
+153,2015,Assault,F,Youth,12-17,510
+154,2015,Assault,M,Adult,18-24,1255
+155,2015,Assault,M,Adult,25-34,1695
+156,2015,Assault,M,Adult,35-44,1215
+157,2015,Assault,M,Adult,45-54,1301
+158,2015,Assault,M,Adult,55-64,681
+159,2015,Assault,M,Adult,65+,335
+160,2015,Assault,M,Child,<12,470
+162,2015,Assault,M,Youth,12-17,543
+165,2015,Other,F,Adult,18-24,533
+166,2015,Other,F,Adult,25-34,858
+167,2015,Other,F,Adult,35-44,575
+168,2015,Other,F,Adult,45-54,409
+169,2015,Other,F,Adult,55-64,184
+170,2015,Other,F,Adult,65+,124
+171,2015,Other,F,Child,<12,64
+173,2015,Other,F,Youth,12-17,260
+174,2015,Other,M,Adult,18-24,297
+175,2015,Other,M,Adult,25-34,482
+176,2015,Other,M,Adult,35-44,463
+177,2015,Other,M,Adult,45-54,441
+178,2015,Other,M,Adult,55-64,259
+179,2015,Other,M,Adult,65+,139
+180,2015,Other,M,Child,<12,91
+182,2015,Other,M,Youth,12-17,172
+186,2015,Robbery,F,Adult,18-24,189
+187,2015,Robbery,F,Adult,25-34,176
+188,2015,Robbery,F,Adult,35-44,108
+189,2015,Robbery,F,Adult,45-54,134
+190,2015,Robbery,F,Adult,55-64,78
+192,2015,Robbery,F,Child,<12,8
+194,2015,Robbery,F,Youth,12-17,66
+195,2015,Robbery,M,Adult,18-24,631
+196,2015,Robbery,M,Adult,25-34,403
+197,2015,Robbery,M,Adult,35-44,199
+198,2015,Robbery,M,Adult,45-54,227
+199,2015,Robbery,M,Adult,55-64,153
+200,2015,Robbery,M,Adult,65+,94
+401,2017,Assault,M,Adult,55-64,802
+402,2017,Assault,M,Adult,65+,393
+403,2017,Assault,M,Child,<12,488
+405,2017,Assault,M,Youth,12-17,642
+410,2017,Other,F,Adult,18-24,459
+411,2017,Other,F,Adult,25-34,708
+412,2017,Other,F,Adult,35-44,494
+413,2017,Other,F,Adult,45-54,346
+414,2017,Other,F,Adult,55-64,203
+415,2017,Other,F,Adult,65+,101
+416,2017,Other,F,Child,<12,76
+418,2017,Other,F,Youth,12-17,230
+419,2017,Other,M,Adult,18-24,292
+420,2017,Other,M,Adult,25-34,483
+421,2017,Other,M,Adult,35-44,386
+422,2017,Other,M,Adult,45-54,370
+423,2017,Other,M,Adult,55-64,214
+424,2017,Other,M,Adult,65+,99
+425,2017,Other,M,Child,<12,61
+427,2017,Other,M,Youth,12-17,173
+431,2017,Robbery,F,Adult,18-24,214
+432,2017,Robbery,F,Adult,25-34,199
+433,2017,Robbery,F,Adult,35-44,117
+434,2017,Robbery,F,Adult,45-54,141
+435,2017,Robbery,F,Adult,55-64,81
+436,2017,Robbery,F,Adult,65+,46
+437,2017,Robbery,F,Child,<12,6
+439,2017,Robbery,F,Youth,12-17,95
+440,2017,Robbery,M,Adult,18-24,727
+441,2017,Robbery,M,Adult,25-34,490
+442,2017,Robbery,M,Adult,35-44,258
+443,2017,Robbery,M,Adult,45-54,242
+444,2017,Robbery,M,Adult,55-64,180
+445,2017,Robbery,M,Adult,65+,71
+446,2017,Robbery,M,Child,<12,19
+448,2017,Robbery,M,Youth,12-17,750
+451,2017,Sexual Violation,F,Adult,18-24,513
+452,2017,Sexual Violation,F,Adult,25-34,416
+453,2017,Sexual Violation,F,Adult,35-44,201
+454,2017,Sexual Violation,F,Adult,45-54,111
+455,2017,Sexual Violation,F,Adult,55-64,55
+511,2018,Assault,F,Adult,45-54,1038
+512,2018,Assault,F,Adult,55-64,491
+513,2018,Assault,F,Adult,65+,396
+514,2018,Assault,F,Child,<12,307
+516,2018,Assault,F,Youth,12-17,532
+517,2018,Assault,M,Adult,18-24,1295
+518,2018,Assault,M,Adult,25-34,1965
+519,2018,Assault,M,Adult,35-44,1479
+520,2018,Assault,M,Adult,45-54,1360
+521,2018,Assault,M,Adult,55-64,918
+522,2018,Assault,M,Adult,65+,437
+523,2018,Assault,M,Child,<12,444
+525,2018,Assault,M,Youth,12-17,596
+530,2018,Other,F,Adult,18-24,426
+531,2018,Other,F,Adult,25-34,640
+532,2018,Other,F,Adult,35-44,487
+533,2018,Other,F,Adult,45-54,344
+534,2018,Other,F,Adult,55-64,169
+535,2018,Other,F,Adult,65+,116
+536,2018,Other,F,Child,<12,81
+538,2018,Other,F,Youth,12-17,228
+539,2018,Other,M,Adult,18-24,333
+540,2018,Other,M,Adult,25-34,501
+541,2018,Other,M,Adult,35-44,413
+542,2018,Other,M,Adult,45-54,392
+543,2018,Other,M,Adult,55-64,255
+544,2018,Other,M,Adult,65+,98
+545,2018,Other,M,Child,<12,64
+547,2018,Other,M,Youth,12-17,168
+553,2018,Robbery,F,Adult,18-24,197
+554,2018,Robbery,F,Adult,25-34,189
+555,2018,Robbery,F,Adult,35-44,116
+556,2018,Robbery,F,Adult,45-54,106
+557,2018,Robbery,F,Adult,55-64,85
+558,2018,Robbery,F,Adult,65+,59
+559,2018,Robbery,F,Child,<12,6
+561,2018,Robbery,F,Youth,12-17,57
+562,2018,Robbery,M,Adult,18-24,715
+563,2018,Robbery,M,Adult,25-34,461
+564,2018,Robbery,M,Adult,35-44,249
+565,2018,Robbery,M,Adult,45-54,248
+566,2018,Robbery,M,Adult,55-64,159
+456,2017,Sexual Violation,F,Adult,65+,37
+457,2017,Sexual Violation,F,Child,<12,217
+459,2017,Sexual Violation,F,Youth,12-17,467
+460,2017,Sexual Violation,M,Adult,18-24,62
+461,2017,Sexual Violation,M,Adult,25-34,33
+462,2017,Sexual Violation,M,Adult,35-44,27
+463,2017,Sexual Violation,M,Adult,45-54,18
+464,2017,Sexual Violation,M,Adult,55-64,6
+465,2017,Sexual Violation,M,Adult,65+,6
+466,2017,Sexual Violation,M,Child,<12,74
+468,2017,Sexual Violation,M,Youth,12-17,63
+471,2018,Assault,F,Adult,25-34,16
+472,2018,Assault,F,Adult,35-44,9
+473,2018,Assault,F,Adult,45-54,7
+474,2018,Assault,F,Adult,55-64,2
+475,2018,Assault,F,Adult,65+,4
+477,2018,Assault,M,Adult,18-24,4
+478,2018,Assault,M,Adult,25-34,64
+479,2018,Assault,M,Adult,35-44,46
+480,2018,Assault,M,Adult,45-54,53
+481,2018,Assault,M,Adult,55-64,14
+482,2018,Assault,M,Adult,65+,4
+485,2018,Assault,F,Adult,45-54,1
+486,2018,Assault,F,Adult,65+,1
+488,2018,Assault,M,Adult,18-24,1
+489,2018,Assault,M,Adult,25-34,6
+490,2018,Assault,M,Adult,35-44,15
+491,2018,Assault,M,Adult,45-54,7
+492,2018,Assault,M,Adult,65+,2
+494,2018,Assault,F,Adult,18-24,18
+495,2018,Assault,F,Adult,25-34,13
+496,2018,Assault,F,Adult,35-44,7
+497,2018,Assault,F,Adult,45-54,3
+498,2018,Assault,F,Adult,55-64,2
+500,2018,Assault,F,Youth,12-17,1
+501,2018,Assault,M,Adult,18-24,59
+502,2018,Assault,M,Adult,25-34,77
+503,2018,Assault,M,Adult,35-44,20
+504,2018,Assault,M,Adult,45-54,26
+505,2018,Assault,M,Adult,55-64,5
+506,2018,Assault,M,Adult,65+,4
+508,2018,Assault,F,Adult,18-24,1480
+509,2018,Assault,F,Adult,25-34,2164
+510,2018,Assault,F,Adult,35-44,1512
+676,2019,Other,M,Child,<12,63
+678,2019,Other,M,Youth,12-17,173
+623,2019,Assault,F,Adult,18-24,13
+624,2019,Assault,F,Adult,25-34,10
+567,2018,Robbery,M,Adult,65+,90
+625,2019,Assault,F,Adult,35-44,2
+568,2018,Robbery,M,Child,<12,7
+681,2019,Robbery,F,Adult,18-24,182
+626,2019,Assault,F,Adult,45-54,1
+682,2019,Robbery,F,Adult,25-34,155
+627,2019,Assault,F,Adult,55-64,2
+570,2018,Robbery,M,Youth,12-17,536
+683,2019,Robbery,F,Adult,35-44,108
+628,2019,Assault,F,Adult,65+,1
+684,2019,Robbery,F,Adult,45-54,102
+572,2018,Sexual Violation,F,Adult,18-24,644
+685,2019,Robbery,F,Adult,55-64,89
+573,2018,Sexual Violation,F,Adult,25-34,515
+630,2019,Assault,M,Adult,18-24,81
+631,2019,Assault,M,Adult,25-34,91
+574,2018,Sexual Violation,F,Adult,35-44,231
+686,2019,Robbery,F,Adult,65+,61
+575,2018,Sexual Violation,F,Adult,45-54,127
+632,2019,Assault,M,Adult,35-44,30
+687,2019,Robbery,F,Child,<12,6
+576,2018,Sexual Violation,F,Adult,55-64,75
+633,2019,Assault,M,Adult,45-54,30
+577,2018,Sexual Violation,F,Adult,65+,51
+634,2019,Assault,M,Adult,55-64,12
+689,2019,Robbery,F,Youth,12-17,56
+578,2018,Sexual Violation,F,Child,<12,214
+635,2019,Assault,M,Adult,65+,5
+690,2019,Robbery,M,Adult,18-24,693
+691,2019,Robbery,M,Adult,25-34,475
+580,2018,Sexual Violation,F,Youth,12-17,518
+692,2019,Robbery,M,Adult,35-44,247
+581,2018,Sexual Violation,M,Adult,18-24,53
+638,2019,Assault,F,Adult,18-24,1408
+693,2019,Robbery,M,Adult,45-54,198
+582,2018,Sexual Violation,M,Adult,25-34,54
+639,2019,Assault,F,Adult,25-34,2299
+694,2019,Robbery,M,Adult,55-64,178
+583,2018,Sexual Violation,M,Adult,35-44,34
+640,2019,Assault,F,Adult,35-44,1644
+695,2019,Robbery,M,Adult,65+,85
+584,2018,Sexual Violation,M,Adult,45-54,18
+641,2019,Assault,F,Adult,45-54,1069
+696,2019,Robbery,M,Child,<12,12
+585,2018,Sexual Violation,M,Adult,55-64,7
+642,2019,Assault,F,Adult,55-64,616
+586,2018,Sexual Violation,M,Adult,65+,4
+643,2019,Assault,F,Adult,65+,447
+698,2019,Robbery,M,Youth,12-17,554
+587,2018,Sexual Violation,M,Child,<12,81
+644,2019,Assault,F,Child,<12,308
+589,2018,Sexual Violation,M,Youth,12-17,77
+646,2019,Assault,F,Youth,12-17,599
+705,2019,Sexual Violation,F,Adult,18-24,572
+706,2019,Sexual Violation,F,Adult,25-34,453
+707,2019,Sexual Violation,F,Adult,35-44,263
+708,2019,Sexual Violation,F,Adult,45-54,130
+709,2019,Sexual Violation,F,Adult,55-64,59
+710,2019,Sexual Violation,F,Adult,65+,65
+711,2019,Sexual Violation,F,Child,<12,235
+713,2019,Sexual Violation,F,Youth,12-17,540
+714,2019,Sexual Violation,M,Adult,18-24,61
+715,2019,Sexual Violation,M,Adult,25-34,63
+716,2019,Sexual Violation,M,Adult,35-44,22
+717,2019,Sexual Violation,M,Adult,45-54,18
+718,2019,Sexual Violation,M,Adult,55-64,11
+719,2019,Sexual Violation,M,Adult,65+,6
+720,2019,Sexual Violation,M,Child,<12,114
+722,2019,Sexual Violation,M,Youth,12-17,92
+647,2019,Assault,M,Adult,18-24,1363
+648,2019,Assault,M,Adult,25-34,2109
+649,2019,Assault,M,Adult,35-44,1568
+650,2019,Assault,M,Adult,45-54,1323
+596,2019,Assault,F,Adult,18-24,1
+651,2019,Assault,M,Adult,55-64,983
+597,2019,Assault,F,Adult,25-34,18
+652,2019,Assault,M,Adult,65+,477
+598,2019,Assault,F,Adult,35-44,11
+653,2019,Assault,M,Child,<12,505
+599,2019,Assault,F,Adult,45-54,4
+600,2019,Assault,F,Adult,55-64,1
+655,2019,Assault,M,Youth,12-17,712
+601,2019,Assault,F,Adult,65+,1
+661,2019,Other,F,Adult,18-24,363
+662,2019,Other,F,Adult,25-34,569
+663,2019,Other,F,Adult,35-44,401
+664,2019,Other,F,Adult,45-54,275
+665,2019,Other,F,Adult,55-64,165
+666,2019,Other,F,Adult,65+,81
+667,2019,Other,F,Child,<12,70
+669,2019,Other,F,Youth,12-17,215
+670,2019,Other,M,Adult,18-24,307
+671,2019,Other,M,Adult,25-34,392
+672,2019,Other,M,Adult,35-44,316
+673,2019,Other,M,Adult,45-54,288
+674,2019,Other,M,Adult,55-64,205
+675,2019,Other,M,Adult,65+,84
+603,2019,Assault,M,Adult,18-24,7
+604,2019,Assault,M,Adult,25-34,68
+605,2019,Assault,M,Adult,35-44,36
+606,2019,Assault,M,Adult,45-54,37
+607,2019,Assault,M,Adult,55-64,15
+608,2019,Assault,M,Adult,65+,15
+611,2019,Assault,F,Adult,25-34,2
+612,2019,Assault,F,Adult,35-44,1
+613,2019,Assault,F,Adult,45-54,1
+614,2019,Assault,F,Adult,65+,1
+616,2019,Assault,M,Adult,25-34,8
+617,2019,Assault,M,Adult,35-44,5
+618,2019,Assault,M,Adult,45-54,6
+619,2019,Assault,M,Adult,55-64,1
+620,2019,Assault,M,Adult,65+,1

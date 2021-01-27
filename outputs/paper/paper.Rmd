@@ -1,10 +1,8 @@
 ---
-title: "TBD"
-subtitle: "TBD"
-author: "TBD"
-thanks: "Code and data are available at: LINK."
+title: "Toronto robbery Victims are primarily young males between 2014 and 2019"
+author: "Hong Shi"
 date: "`r format(Sys.time(), '%d %B %Y')`"
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "Robbery is the criminal action of taking properties from other persons by force or threat, causing serious emotional and psychological impact on its victims. This paper explores the Toronto Police Annual Statistical Report to analyze who are the primary victims of robbery in Toronto. We use a descriptive table and a bar chart to show that young males within 12~34 age group are the major proportion of robbery victims."
 output:
   bookdown::pdf_document2:
 toc: FALSE
@@ -12,18 +10,40 @@ bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
+# workspace set up
 knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
+library(bookdown)
 library(palmerpenguins)
+library(scales)
+library(here)
 ```
 
 # Introduction
 
+As robbery involves both threatened or actual violence and loss of property to victims, it ranks among the most serious and feared criminal offenses. [@harlow1987robbery] Previous studies on robbery have shown that robberies have serious and enduring effects on victims' social behavior and psychological health, such as increased nervousness, anxiety, fear of crime [@gale2005behavioural], acute stress disorder [@elklit2002acute], etc. This paper explores who are major proportion of robbery victims in Toronto. We use the Toronto's Police Service Annual Statistical Report dataset on Victims of Crime as our data source and conduct descriptive analysis using a table and a line chart. The results shows that young males, particularly within 12~34 age group, are at more risk becoming victims of robbery.  
 
-
+We organize the rest of paper as follows: In Data section, we first introduce our data source and approach to collect and process the data. 
+Then, we explore key features of the dataset. Next, we discuss variables in the dataset and perform the data cleaning. Finally, we use descriptive analysis to show our findings on Toronto robbery victims. ^[ Code and Data are available at the GitHub repo: https://github.com/honn-ishinn/toronto_robbery_victims]
 
 # Data
+
+```{r dataimport, include=FALSE}
+# read the cleaned data from inputs/data
+victims_data <- read_csv(here::here("inputs/data/toronto_crime_victims_data.csv"))
+```
+Our data is of Toronto robbery victims based on Toronto's Police Service Annual Statistical Report. We analyzed it using R [@citeR], and packages `tidyverse` [@cite_tidyverse], `scales` [@cite_scales] and `here` [@cite_here]
+
+## Data Collection
+
+
+## Dataset Features
+
+## Dataset Description and Data Cleaning
+
+## Descriptive Analysis
+
 
 Our data is of penguins (Figure \@ref(fig:bills)).
 
@@ -35,6 +55,81 @@ ggplot(penguins, aes(x = island, fill = species)) +
   theme_minimal() +
   facet_wrap(~species, ncol = 1) +
   coord_flip()
+```
+
+
+
+
+
+
+(Figure \@ref(fig:bills)).
+
+
+```{r}
+year <- length(unique(victims_data$ReportedYear))
+```
+```{r}
+victims_by_sex <- 
+  victims_data %>%
+  group_by( Sex) %>% 
+  summarise(
+    Annual_Victims = sum( Count_)/ year
+  ) %>% 
+  mutate(across(where(is.numeric),round, 0))
+victims_by_sex
+```
+
+
+
+```{r}
+victims_by_sex <- 
+  victims_data %>%
+  group_by( Sex) %>% 
+  summarise(
+    Annual_Victims = sum( Count_)/ year
+  ) %>% 
+  mutate(across(where(is.numeric),round, 0))
+
+robbery_by_sex <- 
+  victims_data %>%
+  filter( Subtype == "Robbery") %>% 
+  group_by( Sex) %>% 
+  summarise( 
+    Robbery_Victims = sum( Count_) / year
+  ) %>% 
+  mutate(across(where(is.numeric),round, 0))
+
+robbery_data <- victims_by_sex %>% 
+  left_join( robbery_by_sex, by = "Sex") %>% 
+  mutate( Percentage_of_Robbery_Victims = percent(Robbery_Victims / Annual_Victims, accuracy = 0.01))
+  
+
+robbery_data %>% 
+  knitr::kable(
+    col.names = c("Sex", "Crime Victims", "Robbery Victims", "Percentage of Robbery Victims"),
+    align = "cccc",
+    caption = "Average Annual Crime victims by sex between 2014 and 2019")
+```
+
+```{r}
+robbery_Victims_sexage <- 
+  victims_data %>% 
+  filter( Subtype == "Robbery") %>% 
+  group_by( AgeCohort, Sex) %>% 
+  summarise(
+    Victims_by_SexAge = sum( Count_ ) / year
+  ) %>% 
+  mutate(across(where(is.numeric),round, 0))
+
+robbery_Victims_sexage
+ggplot( data = robbery_Victims_sexage ) +
+  geom_col(mapping = aes(x = AgeCohort, y = Victims_by_SexAge, fill = Sex ), position = "dodge" ) +
+  theme_minimal() +
+  labs(
+    title = "Annual Robbery Victims by Age Group between 2014 and 2019",
+    x = "Age Group",
+    y = "Robbery Victims"
+  )
 ```
 
 Talk more about it.
@@ -57,18 +152,9 @@ Talk way more about it.
 
 
 
-# Model
 
-\begin{equation}
-Pr(\theta | y) = \frac{Pr(y | \theta) Pr(\theta)}{Pr(y)}  (\#eq:bayes)
-\end{equation}
+Here's a dumb example of how to use some references: In paper we run our analysis in `R` [@citeR]. We also use the `tidyverse` which was written by @cite_tidyverse If we were interested in baseball data then @citeLahman could be useful. 
 
-Equation \@ref(eq:bayes) seems useful, eh?
-
-Here's a dumb example of how to use some references: In paper we run our analysis in `R` [@citeR]. We also use the `tidyverse` which was written by @thereferencecanbewhatever If we were interested in baseball data then @citeLahman could be useful. 
-
-
-# Results
 
 # Discussion
 
@@ -84,11 +170,6 @@ If my paper were 10 pages, then should be be at least 2.5 pages. The discussion 
 
 Weaknesses and next steps should also be included.
 
-\newpage
-
-# Appendix {-}
-
-\newpage
 
 
 # References

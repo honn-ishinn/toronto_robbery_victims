@@ -1,10 +1,11 @@
 #### Preamble ####
 # Purpose: Use opendatatoronto to get Toronto crime victims data
 # Author: Hong Shi
+# Date: 29 January 2021
 # Contact: lancehong.shi@mail.utoronto.ca
-# Date: 26 January 2021
+# License: MIT
 # Pre-requisites: None
-# TODOs: -
+
 
 
 #### Workspace set-up ####

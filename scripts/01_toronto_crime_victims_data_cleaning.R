@@ -1,34 +1,30 @@
 #### Preamble ####
-# Purpose: Clean the crime victims data downloaded from opendatatoronto [...UPDATE ME!!!!!]
+# Purpose: Clean the crime victims data downloaded from opendatatoronto
 # Author: Hong Shi
-# Date: 26 January 2021
+# Date: 29 January 2021
 # Contact: lancehong.shi@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: 
 # - Need to have downloaded the raw data in "00_toronto_crime_victims_data_import.R" and saved it to inputs/data
-# - Don't forget to gitignore it!
-# - Change these to yours
-# Any other information needed?
 
 
 #### Workspace setup ####
-# Use R Projects, not setwd().
 
 library(tidyverse)
+
 # Read in the raw data. 
 raw_data <- readr::read_csv("inputs/data/raw_data.csv")
 
 #### Selecting variables of interest ####
 
 names(raw_data)
-# Just keep some variables that may be of interest (change this depending on your interests)
+
 # Since we are exploring Toronto robbery victims data, and the dataset only includes 
 # all identified victims of crimes against the person, we keep "Index_" ( for easier arrangement of the dataset order),
 # "ReportedYear", "Subtype", "Sex", "AgeGroup" and "AgeCohort" in reduced dataset.
 # We do not include "AssaultSubtype" in our dataset since it only relates "Assault" in "Subtype" category
 # and is out of robbery victims of interest
 
-# 
 reduced_data <- 
   raw_data %>% 
   select(

@@ -12,6 +12,7 @@ bibliography: references.bib
 
 ```{r setup, include=FALSE}
 # Referenced the following link to add new line: https://stackoverflow.com/questions/33191744/how-to-add-new-line-in-markdown-presentation
+
 # workspace set up
 knitr::opts_chunk$set(echo = TRUE)
 

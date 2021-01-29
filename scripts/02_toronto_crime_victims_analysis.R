@@ -1,19 +1,14 @@
 #### Preamble ####
-# Purpose: Provide codes for analysis of Toronto robbery victims in the paper[...UPDATE ME!!!!!]
+# Purpose: Provide codes for analysis of Toronto robbery victims in the paper
 # Author: Hong Shi
-# Date: 26 January 2021
+# Date: 29 January 2021
 # Contact: lancehong.shi@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: 
 # - Need to have downloaded the cleaned data in "01_toronto_crime_victims_data_import.R" and saved it to inputs/data
-# - Don't forget to gitignore it!
-# - Change these to yours
-# Any other information needed?
-
 
 
 #### Workspace setup ####
-# Use R Projects, not setwd().
 
 library(tidyverse)
 library(bookdown)
@@ -25,12 +20,13 @@ victims_data <- read_csv(here::here("inputs/data/toronto_crime_victims_data.csv"
 
 #### Relevant analysis ####
 
-# explore different types of crime victims
+# Explore different types of crime victims
 
 unique(victims_data$Subtype)
 
 
 #### Table 1 ####
+
 # Get the number of years included in the dataset
 year <- length(unique(victims_data$ReportedYear))
 
@@ -97,6 +93,7 @@ ggplot( data = robbery_by_year, mapping =  aes(x = ReportedYear, y = robbery_yea
 #### Bar chart #### 
 
 # Obtain the table about the annual average robbery victims by sex and age group
+
 robbery_Victims_sexage <- 
   victims_data %>% 
   filter( Subtype == "Robbery") %>% 
@@ -118,7 +115,7 @@ ggplot( data = robbery_Victims_sexage ) +
     y = "Robbery Victims"
   )
 
-#### Find the percentage of male robbery victims within 12-34 ages among all robbery victims
+#### Find the percentage of male robbery victims within 12-34 ages among all robbery victims ####
 
 unique(victims_data$AgeCohort)
 high_risk <- 

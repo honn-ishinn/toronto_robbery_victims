@@ -16,7 +16,7 @@ In inputs folder:
 
 The data subfolder contains the raw data "raw_data.csv" from "00_toronto_crime_victims_data_import.R", and the cleaned data "toronto_crime_victims_data.csv" from "01_toronto_crime_victims_data_cleaning.R"
 
-The literature subfolder contains literatures relevant to the paper
+The literature subfolder contains literatures with open access relevant to the paper 
 
 In outputs folder:
 

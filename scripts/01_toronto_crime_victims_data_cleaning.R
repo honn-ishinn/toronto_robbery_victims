@@ -1,11 +1,11 @@
 #### Preamble ####
 # Purpose: Clean the crime victims data downloaded from opendatatoronto [...UPDATE ME!!!!!]
 # Author: Hong Shi
-# Data: 26 January 2021
+# Date: 26 January 2021
 # Contact: lancehong.shi@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: 
-# - Need to have downloaded the raw data in 00_toronto_crime_victims_data_import.R and saved it to inputs/data
+# - Need to have downloaded the raw data in "00_toronto_crime_victims_data_import.R" and saved it to inputs/data
 # - Don't forget to gitignore it!
 # - Change these to yours
 # Any other information needed?

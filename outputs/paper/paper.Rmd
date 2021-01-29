@@ -28,10 +28,10 @@ library(kableExtra)
 
 # Introduction  
   
-&nbsp; &nbsp; As robbery involves both threatened or actual violence and loss of property to victims, it ranks among the most serious and feared criminal offenses. [@harlow1987robbery] Previous studies on robbery have shown that robberies have serious and enduring effects on victims' social behavior and psychological health, such as increased nervousness, anxiety, fear of crime [@gale2005behavioural], acute stress disorder [@elklit2002acute], etc. Therefore, a robbery victim profile using current data could help to inform potential victims at high risk for better robbery prevention. This paper explores who are major proportion of robbery victims in Toronto. We use the Toronto's Police Service Annual Statistical Report dataset on Victims of Crime as our data source and conduct descriptive analysis using a table and a bar chart. The results shows that young males, particularly within 12~34 age group, are at more risk becoming victims of robbery.  
+&nbsp; &nbsp; As robbery involves both threatened or actual violence and loss of property to victims, it ranks among the most serious and feared criminal offenses. [@harlow1987robbery] Previous studies on robbery have shown that robberies have serious and enduring effects on victims' social behavior and psychological health, such as increased nervousness, anxiety, fear of crime [@gale2005behavioural], acute stress disorder [@elklit2002acute], etc. Therefore, a robbery victim profile using current data could help to inform potential victims at high risk for better robbery prevention. This paper explores who are major proportion of robbery victims in Toronto. We use the Toronto's Police Service Annual Statistical Report dataset on Victims of Crime as our data source and conduct descriptive analysis using a table, a line chart and a bar chart. The results shows that young males, particularly within 12~34 age group, are at more risk becoming victims of robbery.  
 &nbsp; 
 
-&nbsp; &nbsp; We organize the rest of paper as follows: In Data section, we first introduce our data source and approach to collect the dataset. Then we examine some features and weaknesses of the dataset. Secondly, we discuss variables in the dataset. Finally, we use descriptive analysis to show our findings on Toronto robbery victims. In Discussion section, we conclude and discuss some weaknesses of this analysis. ^[ Code and Data are available at the GitHub repo: https://github.com/honn-ishinn/toronto_robbery_victims]
+&nbsp; &nbsp; We organize the rest of paper as follows: In Data section, we first introduce our data source and approach to collect the dataset. Then we examine some features and weaknesses of the dataset. Secondly, we discuss variables in the dataset. Finally, we use descriptive analysis to show our findings on Toronto robbery victims. ^[ Code and Data are available at the GitHub repo: https://github.com/honn-ishinn/toronto_robbery_victims]
 
 # Data  
 
@@ -56,9 +56,9 @@ victims_data <- read_csv(here::here("inputs/data/toronto_crime_victims_data.csv"
 &nbsp; &nbsp; To explore who are the major proportion of robbery victims, we use the following variables in the dataset: 
   
   
-* `Sex`: records the sex of identified victim. We remove crime cases which the victim sex is unavailable.
+* `Sex`: records the sex of identified victim. We remove crime cases which the victim's sex is unavailable.
 
-* `AgeCohort` records the age cohort of identified victim. There is another variable `AgeGroup` in the dataset that records the age group of identified victim by child, youth or adult. Since `AgeCohort` provides a more detailed classification of victims by their age range (e.g. 18-24), we choose `AgeCohort` instead of `AgeGroup` to analyze the age feature of robbery victims. We remove crime cases which the victim age cohort is unavailable, and `AgeCohort` refers to "age group" in the context of this paper.
+* `AgeCohort` records the age cohort of identified victim. There is another variable `AgeGroup` in the dataset that records the age group of the identified victim by child, youth or adult. Since `AgeCohort` provides a more detailed classification of victims by their age range (e.g. 18-24), we choose `AgeCohort` instead of `AgeGroup` to analyze the age feature of robbery victims. We remove crime cases which the victim's age cohort is unavailable, and `AgeCohort` refers to "age group" in the context of this paper.
 
 * `Count_` records the count of identified victims; duplicate persons are possible if the same person was victimized for the same offence during the same period.
 
@@ -68,7 +68,7 @@ victims_data <- read_csv(here::here("inputs/data/toronto_crime_victims_data.csv"
 
 ## Descriptive Analysis  
 
-&nbsp; &nbsp; The following table (Table \@ref(tab:generalinfo)) shows the general information about robbery victims in Toronto. On average, total victims associated with crimes against the person are fairly equal between males and females between 2014 and 2019 (13235 on males vs 13174 on females). However, robbery victims contribute around 18.8% of the total crimes victims on males, which are almost 3 times of those on females (18.8% on males vs 6.36% on females).
+&nbsp; &nbsp; The following table (Table \@ref(tab:generalinfo)) shows the general information about robbery victims in Toronto. On average, total victims associated with crimes against the person are fairly equal between males and females between 2014 and 2019 (13235 on males vs 13174 on females). However, robbery victims contribute around 18.8% of the total crime victims on males, which are almost 3 times of those on females (18.8% on males vs 6.36% on females).
 ```{r generalinfo, tab.cap="Average Annual Crime Victims between 2014 and 2019", echo = FALSE, message = FALSE, warning=FALSE}
 
 # Get the number of years included in the dataset
